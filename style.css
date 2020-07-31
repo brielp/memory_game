@@ -1,7 +1,45 @@
-#game div {
-  border: 1px solid black;
-  width: 15%;
-  height: 200px;
-  margin: 10px;
-  display: inline-block;
+* {
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+	background-image: url('https://cdn.pixabay.com/photo/2020/06/12/00/28/landscape-5288669_960_720.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#game {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+div div {
+	width: 185px;
+	height: 250px;
+	margin: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	box-sizing: border-box;
+	background-image: url(images/barn-297763_640.png);
+	background-color: rgb(70, 59, 59);
+	background-position: center;
+	background-size: 75%;
+	background-repeat: no-repeat;
+}
+
+.glow {
+	border: 5px solid rgb(255, 223, 41);
+}
+
+#new_game {
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+	box-sizing: border-box;
+	margin: 10px;
+	background-color: rgb(70, 59, 59);
+	border: none;
+	border-radius: 5px;
 }
